@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #113042;
+  scroll-behavior: smooth;
+}
+
+.BOOOODY {
+  height: 3000px;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+  border: none;
+}
+
+:hover {
+  border: none;
+}

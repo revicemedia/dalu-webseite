@@ -1,0 +1,89 @@
+.Service {
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #3d3d3d;
+  min-height: 320px;
+  padding: 2rem;
+  border: 1px solid rgb(206, 214, 224);
+  transition: box-shadow 0.2s ease-out 0s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.Service:hover {
+  box-shadow: rgb(0 0 0 / 10%) 0px 16px 32px -2px,
+    rgb(0 0 0 / 8%) 0px 8px 16px -2px;
+}
+
+.PTag {
+  display: none;
+}
+
+.Active {
+  display: block;
+}
+
+.headline-h4 {
+  font-weight: 500;
+  color: rgb(3, 6, 11);
+  letter-spacing: 0.01em;
+  margin-block-end: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.Icon {
+  width: 60px;
+  height: auto;
+  transition: all 0.2s ease-out 0s;
+}
+
+.Icon--Active {
+  width: 40px;
+  height: auto;
+  transform: rotate(-10deg);
+}
+
+.StatusBadge {
+  all: unset;
+  margin-bottom: 10px;
+  transition: all 0.6s ease-out 0s;
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  max-width: fit-content;
+  align-items: center;
+  border: 1px solid #3790af;
+}
+
+.Status_Text {
+  color: #fff;
+  padding-left: 5px;
+  width: fit-content;
+}
+
+.Status_Image {
+  width: auto;
+  height: 15px;
+}
+
+.Done {
+  background-color: #3790af;
+  color: #fff;
+}
+
+.Coming {
+  border: 1px solid #3790af;
+  color: #3790af;
+}
+
+.Text_Coming {
+  color: #3790af;
+}
+
+/* #3790af,
+#113042; */

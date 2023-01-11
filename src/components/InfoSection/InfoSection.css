@@ -1,0 +1,86 @@
+.InfoSection-Wrapper {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #3790af, #113042);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1160px) {
+  .InfoSection-Wrapper {
+    width: calc(100vw - 40px);
+  }
+}
+
+.InfoSection--Image {
+  width: calc(100% - 40px);
+  height: auto;
+}
+
+.InfoSectionTextSite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.InfoSectionHeadline {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-bottom: 40px;
+  color: #fff;
+  max-width: 400px;
+}
+
+.InfoSectionCustomer {
+  font-weight: 500;
+  color: #fff;
+}
+
+.InfoSectionImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.InfoSectionParagraph {
+  color: #fff;
+  font-weight: 300;
+  font-size: larger;
+  max-width: 400px;
+  line-height: 1.8rem;
+}
+
+@media screen and (max-width: 760px) {
+  .InfoSectionTextSite {
+    align-items: center;
+  }
+
+  .InfoSection-Wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .InfoSectionHeadline {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+  }
+
+  .InfoSectionParagraph {
+    color: #fff;
+    font-weight: 300;
+    font-size: small;
+    width: 100%;
+    line-height: 1.2rem;
+    text-align: center;
+  }
+}
