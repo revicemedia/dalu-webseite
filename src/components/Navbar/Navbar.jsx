@@ -29,7 +29,7 @@ function Navbar() {
         </nav>
         <div className="Navbar-Login">
           <a href="/" className="Login-Button">
-            Sign In <img src={LoginIcon} className="Login-Icon" />
+            Sign In <img src={LoginIcon} className="Login-Icon" alt="" />
           </a>
         </div>
       </div>

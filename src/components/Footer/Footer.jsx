@@ -1,5 +1,3 @@
-import DaLuLogo from "../../images/DaLu-Logo.svg";
-
 function Footer() {
   return (
     <div>

@@ -1,12 +1,11 @@
 import "./InfoSection.css";
-import DaLuMobileImage from "../../images/test.png";
 import WorldImage from "../../images/World.png";
 
 function InfoSection() {
   return (
     <div className="InfoSection-Wrapper">
       <div className="InfoSectionImage">
-        <img className="InfoSection--Image" src={WorldImage} />
+        <img className="InfoSection--Image" src={WorldImage} alt="" />
       </div>
       <div className="InfoSectionTextSite">
         <h2 className="InfoSectionHeadline">

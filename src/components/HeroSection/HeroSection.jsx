@@ -14,7 +14,7 @@ function HeroSection() {
           Mithilfe unserer weitreichenden Services bindest du deine Kunden
           effektiver denn je zuvor!
         </p>
-        <a href="#" className="HeroLink">
+        <a href="#test" className="HeroLink">
           Mehr erfahren
         </a>
       </div>
