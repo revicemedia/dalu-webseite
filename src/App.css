@@ -7,6 +7,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .BOOOODY {
   height: 3000px;
 }
@@ -19,4 +23,19 @@ a {
 
 :hover {
   border: none;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }

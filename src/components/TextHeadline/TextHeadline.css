@@ -5,5 +5,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  margin-bottom: 160px;
+}
+
+@media screen and (max-width: 1160px) {
+  .TextHeadline-Wrapper {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .TextHeadline-Wrapper {
+    grid-template-columns: 1fr;
+  }
 }

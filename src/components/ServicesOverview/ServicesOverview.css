@@ -1,3 +1,8 @@
+.Services {
+  padding-top: 15vh;
+  margin-bottom: 15vh;
+}
+
 .ServicesOverview-Wrapper {
   width: 100%;
   padding: 0;
@@ -5,7 +10,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  margin-bottom: 160px;
 }
 
 .ServicesHeadline {
@@ -22,8 +26,8 @@
 }
 
 @media screen and (max-width: 1160px) {
-  .ServicesOverview-Wrapper {
-    padding: 0 20px;
+  .Services {
+    padding: 15vh 20px 0 20px;
   }
 }
 

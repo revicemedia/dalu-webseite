@@ -36,7 +36,7 @@
 .NavList {
   width: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto auto;
   gap: 10px;
 }
 
@@ -48,6 +48,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a:hover {
+  color: #3790af;
 }
 
 img {

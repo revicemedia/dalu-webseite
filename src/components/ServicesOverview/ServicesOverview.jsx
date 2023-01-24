@@ -3,8 +3,8 @@ import Service from "./Service/Service";
 
 function ServicesOverview() {
   return (
-    <>
-      <h3 className="">
+    <section id="Services" className="Services">
+      <h3 className="Custom-Headline-Hero">
         Unsere <span className="ServiceHero">Leistungen</span>
       </h3>
       <div className="ServicesOverview-Wrapper">
@@ -51,7 +51,7 @@ function ServicesOverview() {
           status="coming"
         />
       </div>
-    </>
+    </section>
   );
 }
 

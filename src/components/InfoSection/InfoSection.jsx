@@ -9,7 +9,7 @@ function InfoSection() {
       </div>
       <div className="InfoSectionTextSite">
         <h2 className="InfoSectionHeadline">
-          Erreiche deine <span className="InfoSectionCustomer">Kunden</span>{" "}
+          Erreiche deine <span className="InfoSectionCustomer">Kunden </span>
           jederzeit und überall.
         </h2>
         <p className="InfoSectionParagraph">

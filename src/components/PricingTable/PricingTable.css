@@ -1,0 +1,42 @@
+.Pricing {
+  padding-top: 15vh;
+}
+
+.Custom-Headline-Wrapper-Pricing {
+  display: flex;
+  flex-direction: column;
+}
+
+.Pricing-Switch {
+  padding: 0 0 20px 0;
+}
+
+.Pricing-Prices-Wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .Pricing-Switch {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .Pricing-Prices-Wrapper {
+    padding: 0 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Custom-Headline-Wrapper-Pricing {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Pricing-Prices-Wrapper {
+    padding: 0 20px;
+    grid-template-columns: 1fr;
+  }
+}

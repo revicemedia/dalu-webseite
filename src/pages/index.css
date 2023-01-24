@@ -3,3 +3,53 @@
   max-width: 1120px;
   margin: 0 auto;
 }
+
+.Kontakt-Icon-Wrapper {
+  position: fixed;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: #113042;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.6s;
+  overflow: hidden;
+}
+
+.Kontakt-Icon-Wrapper:hover {
+  width: 55px;
+  height: 55px;
+}
+
+.Test12345 {
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #18445d;
+  top: -40%;
+  right: -40%;
+  transition: all 0.6s;
+}
+
+.Kontakt-Icon-Wrapper:hover .Test12345 {
+  width: 90px;
+  height: 80px;
+}
+
+.Kontakt-Icon-Wrapper:hover .IconContact {
+  transform: rotate(20deg);
+}
+
+.IconContact {
+  z-index: 1;
+  transition: all 0.6s;
+}
+
+.BottomPlaceholder {
+  height: 15vh;
+}

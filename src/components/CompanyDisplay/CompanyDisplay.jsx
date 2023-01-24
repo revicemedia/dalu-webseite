@@ -3,8 +3,10 @@ import ReviceLogo from "../../images/Revice-Logo.svg";
 
 function CompanyDisplay() {
   return (
-    <>
-      <h3 className="h3-headline">Unsere Partner</h3>
+    <section className="Company-Overview">
+      <h3>
+        Unsere <span className="ServiceHero">Partner</span>
+      </h3>
       <div className="CompanyDisplay-Wrapper">
         <img className="CompanyDisplayItem" src={ReviceLogo} alt="" />
         <img className="CompanyDisplayItem" src={ReviceLogo} alt="" />
@@ -12,7 +14,7 @@ function CompanyDisplay() {
         <img className="CompanyDisplayItem" src={ReviceLogo} alt="" />
         <img className="CompanyDisplayItem" src={ReviceLogo} alt="" />
       </div>
-    </>
+    </section>
   );
 }
 

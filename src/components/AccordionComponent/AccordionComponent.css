@@ -1,3 +1,7 @@
+.Accordion-Section {
+  padding-top: 15vh;
+}
+
 .accordion {
   background-color: #eee;
   color: #113042;
@@ -7,7 +11,10 @@
   text-align: left;
   border: none;
   outline: none;
-  border-radius: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 1rem;
 }
 
 .active {
@@ -21,7 +28,18 @@
 }
 
 .panel {
-  padding: 10px 18px;
+  padding: 0 0 10px 18px;
   background-color: white;
   overflow: hidden;
+}
+
+.Panel-Description {
+  font-size: 0.9rem;
+  padding: 0 20px 10px 0;
+}
+
+@media screen and (max-width: 1160px) {
+  .Accordion-Section {
+    padding: 15vh 20px 0px 20px;
+  }
 }
