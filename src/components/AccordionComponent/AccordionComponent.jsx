@@ -15,7 +15,7 @@ function AccordionComponent() {
   return (
     <section className="Accordion-Section">
       <h3 className="Custom-Headline-Hero">
-        Unser <span className="ServiceHero">FAQ</span>
+        Häufig gestellte <span className="ServiceHero">Fragen</span>
       </h3>
       <button
         className={activeTab === 1 ? "accordion active" : "accordion"}
