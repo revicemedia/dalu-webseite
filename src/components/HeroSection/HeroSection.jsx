@@ -4,7 +4,7 @@ import BlobbImage from "../../images/blob.svg";
 
 function HeroSection() {
   return (
-    <div className="Hero-Wrapper">
+    <section className="Hero-Wrapper">
       <div className="Hero-Site">
         <h2 className="HeroHeadline">
           Binde deine <span className="CustomerHero">Kunden</span> noch
@@ -22,7 +22,7 @@ function HeroSection() {
         <img className="DaLuHeroImage" src={BlobbImage} alt="" />
         <img className="DaLuHeroImage" src={DaLuMobileImage} alt="" />
       </div>
-    </div>
+    </section>
   );
 }
 

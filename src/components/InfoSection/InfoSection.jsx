@@ -3,7 +3,7 @@ import WorldImage from "../../images/World.png";
 
 function InfoSection() {
   return (
-    <div className="InfoSection-Wrapper">
+    <section className="InfoSection-Wrapper">
       <div className="InfoSectionImage">
         <img className="InfoSection--Image" src={WorldImage} alt="" />
       </div>
@@ -17,7 +17,7 @@ function InfoSection() {
           zugreifen, Tische reservieren und unvergessliche Stunden planen.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 
