@@ -28,7 +28,10 @@ function Navbar() {
           <a href="#blog">Blog</a>
         </nav>
         <div className="Navbar-Login">
-          <a href="/" className="Login-Button">
+          <a
+            href="https://dashboard.dalu-services.com/"
+            className="Login-Button"
+          >
             Sign In <img src={LoginIcon} className="Login-Icon" alt="" />
           </a>
         </div>
