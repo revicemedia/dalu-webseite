@@ -12,7 +12,8 @@ function HeroSection() {
         </h2>
         <p className="HeroParagraph">
           Mithilfe unserer weitreichenden Services bindest du deine Kunden
-          effektiver denn je zuvor!
+          effektiver denn je zuvor! Das beste daran? Du brauchst ausschließlich
+          einen Anbieter - uns.
         </p>
         <a href="#Services" className="HeroLink">
           Mehr erfahren

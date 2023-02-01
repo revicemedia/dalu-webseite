@@ -18,36 +18,36 @@ function ServicesOverview() {
         <Service
           icon="restaurant"
           headline="Digitale Speisekarte für deine Location"
-          statusOfComponent="Wird implementiert"
-          description="Teile potenziellen Kunden mit, wie sehr deine Location ausgelastet ist."
-          status="coming"
+          statusOfComponent="Release 1.0"
+          description="Preise in Echtzeit anpassen und neue Produkte hinzufügen."
+          status="done"
         />
         <Service
           icon="buy"
           headline="Reservierung von Tischen erleichtern"
           statusOfComponent="Wird implementiert"
-          description="Teile potenziellen Kunden mit, wie sehr deine Location ausgelastet ist."
+          description="Tische reservieren, ohne Arbeitszeit zu beanspruchen."
           status="coming"
         />
         <Service
           icon="collect"
           headline="Stempelkarte für Stammkunden"
           statusOfComponent="Wird implementiert"
-          description="Teile potenziellen Kunden mit, wie sehr deine Location ausgelastet ist."
+          description="Belohne deine Kunden für ihre Treue. Digital und unkompliziert."
           status="coming"
         />
         <Service
           icon="chat"
           headline="Vereinfachte Kommunikation"
-          statusOfComponent="Release 1.0"
-          description="Teile potenziellen Kunden mit, wie sehr deine Location ausgelastet ist."
-          status="done"
+          statusOfComponent="Wird implementiert"
+          description="Kommuniziere über unser Tool ganz einfach mit deinen Kunden."
+          status="coming"
         />
         <Service
           icon="favorite"
           headline="Kundenfeedback auf direktem Weg"
           statusOfComponent="Wird implementiert"
-          description="Teile potenziellen Kunden mit, wie sehr deine Location ausgelastet ist."
+          description="Bei uns können Kunden das Erlebnis bei dir bewerten."
           status="coming"
         />
       </div>

@@ -40,3 +40,31 @@
     grid-template-columns: 1fr;
   }
 }
+
+.Wrap {
+  width: 100%;
+  max-width: 400px;
+  height: auo;
+  border-radius: 20px;
+  border: 1px solid #3d3d3d;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px;
+}
+
+.Inactive {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aktiv {
+  padding: 10px 20px;
+  border-radius: 16px;
+  background-color: #3d3d3d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

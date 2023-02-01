@@ -15,6 +15,27 @@
   gap: 20px;
 }
 
+.IconFooter {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
+.CopyrightFooter {
+  max-width: 1120px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  user-select: none;
+}
+
+.CopyrightParagraph {
+  font-weight: 300;
+  font-size: small;
+}
+
 .FooterSection {
   display: flex;
   flex-direction: column;
@@ -44,6 +65,10 @@
   padding-bottom: 8px;
 }
 
+.Blue-Link {
+  color: #3790af;
+}
+
 .WHITE-Link:hover {
   padding-left: 5px;
 }
@@ -53,4 +78,8 @@
     padding: 0 20px 0 20px;
     grid-template-columns: 1fr;
   }
+}
+
+.Name-Headline {
+  font-weight: 500;
 }

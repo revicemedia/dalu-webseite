@@ -27,44 +27,32 @@ function PricingTable() {
       "Leichte Kundenkommunikation",
       "Basic Support",
     ],
-    notIncluded: [""],
   };
 
   const mediumMonth = {
-    name: "Advanced",
+    name: "Premium",
     price: "2,99",
-    description: "Ab dem 13. Monat nur 5,99 €",
-    included: [
-      "Aktueller Status",
-      "Speisekarte",
-      "Reservierungen",
-      "Schneller Support",
-    ],
+    description: "Ab dem 13. Monat nur 4,99 €",
+    included: ["Aktueller Status", "Digitale Speisekarte", "Schneller Support"],
   };
 
   const mediumYear = {
-    name: "Advanced",
+    name: "Premium",
     price: "30",
-    description: "Ab dem 13. Monat nur 55,00 €",
-    included: [
-      "Aktueller Status",
-      "Speisekarte",
-      "Reservierungen",
-      "Schneller Support",
-    ],
+    description: "Ab dem 13. Monat nur 50,00 €",
+    included: ["Aktueller Status", "Digitale Speisekarte", "Schneller Support"],
   };
 
   const premiumMonth = {
     name: "Diamond",
-    price: "3,99",
-    description: "Ab dem 13. Monat nur 6,99 €",
+    price: "4,99",
+    description: "Ab dem 13. Monat nur 7,99 €",
     included: [
       "Aktueller Status",
       "Speisekarte",
       "Reservierungen",
-      "Test",
+      "Digitale Stempelkarte",
       "24 / 7 Support Chat",
-      "Persönliche Einführung",
     ],
   };
 
@@ -76,15 +64,14 @@ function PricingTable() {
       "Aktueller Status",
       "Speisekarte",
       "Reservierungen",
-      "Test",
+      "Digitale Stempelkarte",
       "24 / 7 Support Chat",
-      "Persönliche Einführung",
     ],
   };
 
   return (
     <>
-      <section className="Pricing" id="preise">
+      <section className="Pricing" id="Preise">
         <div className="Custom-Headline-Wrapper-Pricing">
           <h3 className="Custom-Headline-Hero">
             Unsere <span className="ServiceHero">Preisgestaltung</span>

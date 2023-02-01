@@ -22,10 +22,10 @@ function Navbar() {
       <div className={scroll ? "Navbar-Inner__sticky" : "Navbar-Inner"}>
         <img src={DaLuLogo} alt="DaLu Logo" className="Dalu-Logo" />
         <nav className="NavList">
-          <a href="#top">Start</a>
+          <a href="/">Start</a>
           <a href="#Services">Leistungen</a>
-          <a href="#preise">Preise</a>
-          <a href="#blog">Blog</a>
+          <a href="#Preise">Preise</a>
+          <a href="#Blog">Blog</a>
         </nav>
         <div className="Navbar-Login">
           <a
